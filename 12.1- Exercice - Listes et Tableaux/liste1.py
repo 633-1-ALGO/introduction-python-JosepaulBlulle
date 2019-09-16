@@ -6,3 +6,18 @@
 # Indication :   L'alignement rectiligne n'est pas une contrainte, tant que la table est visible ligne par ligne c'est ok.
 #               Si vous êtes perfectionnistes faites vous plaisir.
 liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+resultat = [[None] * liste.__len__()] * liste.__len__()
+
+
+x = 0
+y = 0
+for i in liste:
+    x += 1
+    for j in liste:
+        y += 1
+        resultat[x][y] = i * j
+
+
+print(resultat)

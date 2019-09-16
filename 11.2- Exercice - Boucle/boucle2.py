@@ -3,3 +3,12 @@
 # Résultat attendu : Le tableau B trié
 
 B = [2, 6, 8, 5, 4, 12, 98, 34, 1]
+A = []
+
+for i in range(B.__len__() -1):
+    for j in range(B.index(B[i]) -1):
+        print(B[j])
+        #if B[i] < B[i]:
+
+
+# sdgsdfgdfgdfgdfgdfgdfg
